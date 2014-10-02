@@ -1,0 +1,14 @@
+Host example_com_master
+  HostName my.example.com
+  User username
+  PubkeyAuthentication no
+  ControlMaster yes
+  ControlPath ~/.ssh/sockets/example_com
+  ControlPersist 10
+
+Host my.example.com
+  HostName my.example.com
+  User username
+  PubkeyAuthentication no
+  ControlMaster no
+  ControlPath ~/.ssh/sockets/example_com
