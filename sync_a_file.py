@@ -3,7 +3,7 @@
 from __future__ import print_function
 
 
-FROM_DIR = 'rebelmouse'
+FROM_DIR = 'local'
 TO_DIR = 'remote'
 DELETE_RETRIES = 5
 
